@@ -2,7 +2,7 @@ description: "Аватар профиля"
 get:
     securedBy: [Auth]
     description: "Получить аватар"
-    is: !include /../../../vendor/yii2lab/yii2-rest/src/domain/docs/is/one.raml
+    is: !include /../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/one.raml
     responses:
         200:
             body:
@@ -11,7 +11,7 @@ get:
 post:
     securedBy: [Auth]
     description: "Загрузить аватар"
-    is: !include /../../../vendor/yii2lab/yii2-rest/src/domain/docs/is/create.raml
+    is: !include /../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/create.raml
     body:
         multipart/form-data:
             properties:
@@ -22,4 +22,4 @@ post:
 delete:
     securedBy: [Auth]
     description: "Удалить аватар"
-    is: !include /../../../vendor/yii2lab/yii2-rest/src/domain/docs/is/delete.raml
+    is: !include /../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/delete.raml
