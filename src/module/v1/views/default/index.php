@@ -53,7 +53,7 @@ $icon = Html::fa('pencil', ['class' => 'text-primary']);
 				'roles' => [
 					'attribute' => 'roles',
 					'format' => 'raw',
-					'value' => function (LoginEntity $loginEntity) {
+					'value' => function (IdentityInterface $loginEntity) {
 						return Html::ul($loginEntity->roles);
 					},
 				],
