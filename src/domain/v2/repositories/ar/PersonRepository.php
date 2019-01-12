@@ -2,8 +2,8 @@
 
 namespace yii2module\profile\domain\v2\repositories\ar;
 
-use yii2lab\domain\repositories\ActiveArRepository;
+use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
-class PersonRepository extends ActiveArRepository {
+class PersonRepository extends BaseActiveArRepository {
 
 }

@@ -4,11 +4,11 @@ namespace yii2module\profile\domain\v1\repositories\ar;
 
 use yii\db\BaseActiveRecord;
 use yii2lab\domain\BaseEntity;
-use yii2lab\domain\repositories\ActiveArRepository;
 use Yii;
 use yii\db\ActiveRecord;
+use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
-class AddressRepository extends ActiveArRepository {
+class AddressRepository extends BaseActiveArRepository {
 	
 	protected $primaryKey = 'login';
 	

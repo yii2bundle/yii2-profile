@@ -2,10 +2,10 @@
 
 namespace yii2module\profile\domain\v2\repositories\core;
 
+use yii2lab\extension\core\domain\repositories\base\BaseActiveCoreRepository;
 use yii2module\profile\domain\v2\entities\PersonEntity;
-use yii2lab\domain\repositories\ActiveCoreRepository;
 
-class IinRepository extends ActiveCoreRepository {
+class IinRepository extends BaseActiveCoreRepository {
 	
 	public $version = 'v4';
 	public $baseUri = 'user-iin';
