@@ -5,9 +5,9 @@ namespace yii2module\profile\domain\v2\entities;
 use yii2lab\domain\BaseEntity;
 use yii2lab\domain\values\TimeValue;
 use yii2lab\extension\enum\enums\TimeEnum;
-use yii2lab\validator\IinValidator;
 use Yii;
 use yii\validators\DateValidator;
+use yii2lab\extension\validator\IinValidator;
 use yii2module\account\domain\v2\helpers\LoginHelper;
 
 /**

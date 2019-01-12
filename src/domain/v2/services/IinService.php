@@ -4,9 +4,9 @@ namespace yii2module\profile\domain\v2\services;
 
 use yii2lab\domain\data\Query;
 use yii2lab\domain\services\base\BaseActiveService;
-use yii2lab\validator\helpers\IinParser;
 use Exception;
 use yii\web\NotFoundHttpException;
+use yii2lab\extension\validator\helpers\IinParser;
 
 class IinService extends BaseActiveService {
 
