@@ -15,7 +15,7 @@ class IinController extends Controller
 	public function actions() {
 		return [
 			'view' => [
-				'class' => 'yii2lab\domain\rest\ViewActionWithQuery',
+				'class' => 'yii2lab\rest\domain\rest\ViewActionWithQuery',
 			],
 		];
 	}

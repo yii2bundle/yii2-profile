@@ -4,14 +4,13 @@ namespace yii2module\profile\domain\v1\services;
 
 use yii2lab\domain\helpers\ErrorCollection;
 use yii2lab\domain\exceptions\UnprocessableEntityHttpException;
+use yii2lab\domain\services\base\BaseActiveService;
 use yii2lab\validator\helpers\IinParser;
 use Yii;
-
-use yii2lab\domain\services\ActiveBaseService;
 use yii\helpers\ArrayHelper;
 use yii\web\NotFoundHttpException;
 
-class PersonService extends ActiveBaseService {
+class PersonService extends BaseActiveService {
 	
 	public function getSelf() {
 		$login = Yii::$app->user->identity->login;

@@ -29,7 +29,7 @@ class ProfileController extends Controller
 	public function actions() {
 		return [
 			'view' => [
-				'class' => 'yii2lab\domain\rest\IndexActionWithQuery',
+				'class' => 'yii2lab\rest\domain\rest\IndexActionWithQuery',
 				'serviceMethod' => 'getSelf',
 			],
 		];

@@ -3,10 +3,10 @@
 namespace yii2module\profile\domain\v1\services;
 
 use Yii;
-use yii2lab\domain\services\ActiveBaseService;
 use yii\web\NotFoundHttpException;
+use yii2lab\domain\services\base\BaseActiveService;
 
-class CarService extends ActiveBaseService {
+class CarService extends BaseActiveService {
 	
 	public function getSelf() {
 		$login = Yii::$app->user->identity->login;

@@ -36,11 +36,11 @@ class PersonController extends Controller
 	public function actions() {
 		return [
 			'view' => [
-				'class' => 'yii2lab\domain\rest\IndexActionWithQuery',
+				'class' => 'yii2lab\rest\domain\rest\IndexActionWithQuery',
 				'serviceMethod' => 'getSelf',
 			],
 			'update' => [
-				'class' => 'yii2lab\domain\rest\CreateAction',
+				'class' => 'yii2lab\rest\domain\rest\CreateAction',
 				'serviceMethod' => 'updateSelf',
 				'successStatusCode' => 204,
 			],

@@ -3,11 +3,11 @@
 namespace yii2module\profile\domain\v1\services;
 
 use yii2lab\domain\data\Query;
-use yii2lab\domain\services\ActiveBaseService;
 use Yii;
 use yii\helpers\ArrayHelper;
+use yii2lab\domain\services\base\BaseActiveService;
 
-class ActiveService extends ActiveBaseService {
+class ActiveService extends BaseActiveService {
 	
 	// todo: обновлять значения json-данных при удалении или обновлении филдов
 	

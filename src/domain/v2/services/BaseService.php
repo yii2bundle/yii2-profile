@@ -4,8 +4,8 @@ namespace yii2module\profile\domain\v2\services;
 
 use yii\web\NotFoundHttpException;
 use yii2lab\domain\data\Query;
-use yii2lab\domain\services\ActiveBaseService;
 use Yii;
+use yii2lab\domain\services\base\BaseActiveService;
 use yii2module\profile\domain\v2\repositories\ar\AvatarRepository;
 
 /**
@@ -15,7 +15,7 @@ use yii2module\profile\domain\v2\repositories\ar\AvatarRepository;
  *
  * @property AvatarRepository $repository
  */
-class BaseService extends ActiveBaseService {
+class BaseService extends BaseActiveService {
 	
 	public function oneById($id, Query $query = null) {
 		try {

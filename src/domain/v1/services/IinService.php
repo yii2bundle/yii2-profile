@@ -3,12 +3,12 @@
 namespace yii2module\profile\domain\v1\services;
 
 use yii2lab\domain\data\Query;
-use yii2lab\domain\services\ActiveBaseService;
+use yii2lab\domain\services\base\BaseActiveService;
 use yii2lab\validator\helpers\IinParser;
 use Exception;
 use yii\web\NotFoundHttpException;
 
-class IinService extends ActiveBaseService {
+class IinService extends BaseActiveService {
 
 	public function oneById($id, Query $query = null) {
 		try {

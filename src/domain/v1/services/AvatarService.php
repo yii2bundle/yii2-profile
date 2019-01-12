@@ -2,8 +2,8 @@
 
 namespace yii2module\profile\domain\v1\services;
 
+use yii2lab\domain\services\base\BaseActiveService;
 use yii2module\profile\domain\v1\repositories\upload\AvatarRepository;
-use yii2lab\domain\services\ActiveBaseService;
 use Yii;
 
 /**
@@ -13,7 +13,7 @@ use Yii;
  *
  * @property AvatarRepository $repository
  */
-class AvatarService extends ActiveBaseService {
+class AvatarService extends BaseActiveService {
 	
 	public function getSelf() {
 		$profile = $this->domain->person->getSelf();
