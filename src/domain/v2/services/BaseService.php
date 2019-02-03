@@ -3,9 +3,9 @@
 namespace yii2module\profile\domain\v2\services;
 
 use yii\web\NotFoundHttpException;
-use yii2lab\domain\data\Query;
+use yii2rails\domain\data\Query;
 use Yii;
-use yii2lab\domain\services\base\BaseActiveService;
+use yii2rails\domain\services\base\BaseActiveService;
 use yii2module\profile\domain\v2\repositories\ar\AvatarRepository;
 
 /**

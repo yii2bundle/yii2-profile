@@ -3,9 +3,9 @@
 namespace yii2module\profile\domain\v2\repositories\fly;
 
 use yii\web\UploadedFile;
-use yii2lab\extension\common\helpers\TempHelper;
-use yii2lab\extension\flySystem\repositories\base\BaseFlyRepository;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\extension\common\helpers\TempHelper;
+use yii2rails\extension\flySystem\repositories\base\BaseFlyRepository;
+use yii2rails\extension\yii\helpers\FileHelper;
 use yii2module\profile\domain\v2\interfaces\repositories\AvatarInterface;
 use yii\imagine\Image;
 

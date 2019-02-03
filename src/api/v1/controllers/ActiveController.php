@@ -4,7 +4,7 @@ namespace yii2module\profile\api\v1\controllers;
 
 use yii2lab\rest\domain\rest\ActiveControllerWithQuery as Controller;
 use Yii;
-use yii2lab\extension\web\helpers\Behavior;
+use yii2rails\extension\web\helpers\Behavior;
 
 class ActiveController extends Controller
 {

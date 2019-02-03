@@ -3,11 +3,11 @@
 namespace yii2module\profile\domain\v2\repositories\bridge;
 
 use Yii;
-use yii2lab\domain\data\Query;
-use yii2lab\domain\enums\RelationEnum;
-use yii2lab\domain\helpers\repository\RelationHelper;
-use yii2lab\domain\repositories\BaseRepository;
-use yii2lab\extension\activeRecord\traits\ActiveRepositoryTrait;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\enums\RelationEnum;
+use yii2rails\domain\helpers\repository\RelationHelper;
+use yii2rails\domain\repositories\BaseRepository;
+use yii2rails\extension\activeRecord\traits\ActiveRepositoryTrait;
 
 class ProfileRepository extends BaseRepository {
 	

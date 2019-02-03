@@ -5,7 +5,7 @@ namespace yii2module\profile\widget;
 use Yii;
 use yii\base\Widget;
 use yii\helpers\Html;
-use yii2lab\domain\helpers\ServiceHelper;
+use yii2rails\domain\helpers\ServiceHelper;
 use yii2module\profile\domain\v2\entities\AvatarEntity;
 
 class Avatar extends Widget {

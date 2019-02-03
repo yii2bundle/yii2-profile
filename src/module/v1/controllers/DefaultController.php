@@ -4,7 +4,7 @@ namespace yii2module\profile\module\v1\controllers;
 
 use Yii;
 use yii\web\Controller;
-use yii2lab\domain\data\Query;
+use yii2rails\domain\data\Query;
 
 /**
  * @property \yii2module\profile\module\v1\Module $module

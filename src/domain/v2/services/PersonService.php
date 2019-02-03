@@ -2,11 +2,11 @@
 
 namespace yii2module\profile\domain\v2\services;
 
-use yii2lab\domain\helpers\ErrorCollection;
-use yii2lab\domain\exceptions\UnprocessableEntityHttpException;
+use yii2rails\domain\helpers\ErrorCollection;
+use yii2rails\domain\exceptions\UnprocessableEntityHttpException;
 use yii\helpers\ArrayHelper;
 use yii\web\NotFoundHttpException;
-use yii2lab\extension\validator\helpers\IinParser;
+use yii2rails\extension\validator\helpers\IinParser;
 
 class PersonService extends BaseService {
 	

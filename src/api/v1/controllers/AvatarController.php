@@ -2,9 +2,9 @@
 
 namespace yii2module\profile\api\v1\controllers;
 
-use yii2lab\extension\web\helpers\Behavior;
+use yii2rails\extension\web\helpers\Behavior;
 use yii2lab\rest\domain\rest\Controller;
-use yii2lab\domain\exceptions\UnprocessableEntityHttpException;
+use yii2rails\domain\exceptions\UnprocessableEntityHttpException;
 use Yii;
 use yii2module\profile\domain\v1\forms\AvatarForm;
 

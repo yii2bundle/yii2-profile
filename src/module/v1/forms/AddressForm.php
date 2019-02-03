@@ -10,7 +10,7 @@ namespace yii2module\profile\module\v1\forms;
 
 
 use Yii;
-use yii2lab\domain\base\Model;
+use yii2rails\domain\base\Model;
 
 
 

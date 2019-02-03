@@ -4,9 +4,9 @@ namespace yii2module\profile\domain\v2\services;
 
 use Yii;
 use yii\web\BadRequestHttpException;
-use yii2lab\domain\data\Query;
-use yii2lab\domain\helpers\ServiceHelper;
-use yii2lab\domain\services\base\BaseActiveService;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\helpers\ServiceHelper;
+use yii2rails\domain\services\base\BaseActiveService;
 use yii2module\profile\domain\v2\entities\ProfileEntity;
 
 class ProfileService extends BaseActiveService {

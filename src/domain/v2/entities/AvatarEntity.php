@@ -2,8 +2,8 @@
 
 namespace yii2module\profile\domain\v2\entities;
 
-use yii2lab\app\domain\helpers\EnvService;
-use yii2lab\domain\BaseEntity;
+use yii2rails\app\domain\helpers\EnvService;
+use yii2rails\domain\BaseEntity;
 use yii2module\profile\domain\v2\enums\SummaryEnum;
 
 /**

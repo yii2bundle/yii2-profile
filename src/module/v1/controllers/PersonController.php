@@ -2,7 +2,7 @@
 
 namespace yii2module\profile\module\v1\controllers;
 
-use yii2lab\domain\exceptions\UnprocessableEntityHttpException;
+use yii2rails\domain\exceptions\UnprocessableEntityHttpException;
 use yii2module\profile\domain\v2\entities\PersonEntity;
 use yii2module\profile\module\v1\forms\PersonForm;
 use yii2lab\navigation\domain\widgets\Alert;

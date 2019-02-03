@@ -2,7 +2,7 @@
 
 namespace yii2module\profile\domain\v2\entities;
 
-use yii2lab\domain\BaseEntity;
+use yii2rails\domain\BaseEntity;
 
 class AddressEntity extends BaseEntity {
 	

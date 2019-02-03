@@ -2,7 +2,7 @@
 
 namespace yii2module\profile\domain\v2;
 
-use yii2lab\domain\enums\Driver;
+use yii2rails\domain\enums\Driver;
 
 /**
  * Class Domain
@@ -11,7 +11,7 @@ use yii2lab\domain\enums\Driver;
  * @property-read \yii2module\profile\domain\v2\interfaces\services\AvatarInterface $avatar
  * @property-read \yii2module\profile\domain\v2\interfaces\repositories\RepositoriesInterface $repositories
  */
-class Domain extends \yii2lab\domain\Domain {
+class Domain extends \yii2rails\domain\Domain {
 	
 	public function config() {
 		return [

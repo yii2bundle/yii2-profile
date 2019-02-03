@@ -2,7 +2,7 @@
 
 namespace yii2module\profile\domain\v2\forms;
 
-use yii2lab\domain\base\Model;
+use yii2rails\domain\base\Model;
 use Yii;
 use yii\web\UploadedFile;
 

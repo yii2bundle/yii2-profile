@@ -36,7 +36,7 @@ return [
 	'components' => [
 		// ...
 		'profile' => [
-			'class' => 'yii2lab\domain\Domain',
+			'class' => 'yii2rails\domain\Domain',
 			'path' => 'yii2module\profile\domain',
 			'repositories' => [
 				'profile' => Driver::ACTIVE_RECORD,

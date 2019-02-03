@@ -2,8 +2,8 @@
 
 namespace yii2module\profile\module\v1\helpers;
 
-use yii2lab\extension\menu\base\BaseMenu;
-use yii2lab\extension\menu\interfaces\MenuInterface;
+use yii2rails\extension\menu\base\BaseMenu;
+use yii2rails\extension\menu\interfaces\MenuInterface;
 
 class SettingsMenu extends BaseMenu implements MenuInterface {
 	

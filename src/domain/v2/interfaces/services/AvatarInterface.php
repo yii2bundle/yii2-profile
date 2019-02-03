@@ -2,7 +2,7 @@
 
 namespace yii2module\profile\domain\v2\interfaces\services;
 
-use yii2lab\domain\interfaces\services\CrudInterface;
+use yii2rails\domain\interfaces\services\CrudInterface;
 
 interface AvatarInterface extends CrudInterface {
 	

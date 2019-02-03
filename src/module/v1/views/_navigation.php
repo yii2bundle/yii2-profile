@@ -1,7 +1,7 @@
 <?php
 
 use yii\bootstrap\Tabs;
-use yii2lab\extension\menu\helpers\MenuHelper;
+use yii2rails\extension\menu\helpers\MenuHelper;
 
 ?>
 
