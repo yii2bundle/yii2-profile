@@ -23,7 +23,6 @@ class AvatarUploadRepository extends BaseFlyRepository implements AvatarInterfac
 		$thumbBaseFileName = $this->getBaseFileName($name);
 		$thumbTempContent = FileHelper::load($thumbTempName);
 		$this->writeFile($thumbBaseFileName, $thumbTempContent);
-		TempHelper::clearAll();
 		return $name;
 	}
 	
