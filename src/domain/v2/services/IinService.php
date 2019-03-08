@@ -14,7 +14,7 @@ class IinService extends BaseActiveService {
 		try {
 			IinParser::parse($id);
 		} catch (Exception $e) {
-			throw new NotFoundHttpException(__METHOD__ . ': ' . __LINE__);
+			throw new NotFoundHttpException(__METHOD__ . ': ' . __LINE__, 0, $e);
 		}
 		return parent::oneById($id, $query);
 	}

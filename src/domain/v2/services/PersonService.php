@@ -32,7 +32,7 @@ class PersonService extends BaseService {
 		} catch(NotFoundHttpException $e) {
 			$error = new ErrorCollection();
 			$error->add('iin','profile/person','iin_not_found');
-			Throw new UnprocessableEntityHttpException($error);
+			Throw new UnprocessableEntityHttpException($error, 0, $e);
 		}
 		$isValidFirstName = mb_strtoupper($body['first_name']) == mb_strtoupper($profileEntityWithIin->first_name);
 		$isValidLastName = mb_strtoupper($body['last_name']) == mb_strtoupper($profileEntityWithIin->last_name);
