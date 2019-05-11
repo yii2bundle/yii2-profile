@@ -8,7 +8,7 @@ use yii2rails\extension\enum\enums\TimeEnum;
 use Yii;
 use yii\validators\DateValidator;
 use yii2rails\extension\validator\IinValidator;
-use yii2module\account\domain\v2\helpers\LoginHelper;
+use yii2module\account\domain\v3\helpers\LoginHelper;
 
 /**
  * Class PersonEntity

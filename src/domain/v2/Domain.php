@@ -7,7 +7,7 @@ use yii2rails\domain\enums\Driver;
 /**
  * Class Domain
  * 
- * @package yii2module\account\domain\v2
+ * @package yii2module\profile\domain\v2
  * @property-read \yii2module\profile\domain\v2\interfaces\services\AvatarInterface $avatar
  * @property-read \yii2module\profile\domain\v2\interfaces\repositories\RepositoriesInterface $repositories
  */

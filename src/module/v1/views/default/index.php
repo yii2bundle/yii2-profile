@@ -2,7 +2,6 @@
 
 use yii\widgets\DetailView;
 use yii2rails\extension\yii\helpers\Html;
-use yii2module\account\domain\v2\entities\LoginEntity;
 use yii2module\profile\domain\v2\entities\ProfileEntity;
 
 /**
